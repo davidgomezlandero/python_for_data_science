@@ -33,7 +33,7 @@ def main():
             try:
                 while len(text) == 0:
                     print("What is the text to count?")
-                    text = input()
+                    text = sys.stdin.read()
             except (KeyboardInterrupt, EOFError):
                 return
             ft_count(text)
