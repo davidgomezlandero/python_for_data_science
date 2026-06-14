@@ -26,4 +26,8 @@ def ft_statistics(*args: Any, **kwargs: Any) -> None:
             sort_list = sorted(args)
             print(f"quartile : [{float(sort_list[pos_25])}, {float(sort_list[pos_75])}]")
         
+        if operation == "std":
+            pass
         
+        if operation == "var":
+            pass
