@@ -22,7 +22,8 @@ and standard deviation for args(float/int) """
                 pos = int(len(args) // 2)
                 print(f"median : {sort_list[pos]}")
             else:
-                print(f"median : {(sort_list[n // 2 -1] + sort_list[n // 2]) / 2}")
+                print(f"median : \
+{(sort_list[n // 2 -1] + sort_list[n // 2]) / 2}")
         elif operation == "quartile":
             pos_25 = int(len(args) // 4)
             pos_75 = int(len(args) * (3 / 4))
